@@ -28,8 +28,8 @@ export default async function handler(req, res) {
   }
 
   if (req.method === "GET") {
-    const allCompanys = await prisma.company.findMany();
+    const allCompanies = await prisma.company.findMany();
   
-    return res.status(201).json(allCompanys)
+    return res.status(201).json(allCompanies)
   }
 };

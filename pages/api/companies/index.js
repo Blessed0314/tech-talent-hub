@@ -13,7 +13,7 @@ export default async function handler(req, res) {
         logo_Company
       } = req.body;
 
-      const newUser = await prisma.company.create({
+      const newCompany = await prisma.company.create({
         data: {
           user,
           name,

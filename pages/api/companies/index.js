@@ -25,10 +25,10 @@ export default async function handler(req, res) {
         },
       });
 
-      return res.status(201).json(newUser);
+      return res.status(201).json(newCompany);
     } catch (error) {
-      console.error("Error creating user:", error);
-      return res.status(500).json({ error: "Error creating user" });
+      console.error("Error creating company:", error);
+      return res.status(500).json({ error: "Error creating company" });
     }
   }
 

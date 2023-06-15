@@ -4,24 +4,48 @@ export default async function handler(req, res) {
   if (req.method === "POST") {
     try {
       const {
-        user,
-        name,
-        lastName,
+        // user,
+        // name,
+        // lastName,
+        // email,
+        // password,
+        // country,
+        // logo_Company
+        
+   
         email,
+        logo,
+        type,
+        description,
+        employes,
+        jobs,
+        vacancies,
         password,
-        country,
-        logo_Company
+        country
+        
       } = req.body;
+
+
 
       const newCompany = await prisma.company.create({
         data: {
-          user,
-          name,
-          lastName,
+          // user,
+          // name,
+          // lastName,
+          // email,
+          // password,
+          // country,
+          // logo_Company
+
           email,
+          logo,
+          type,
+          description,
+          employes,
+          jobs,
+          vacancies,
           password,
-          country,
-          logo_Company
+          country
         },
       });
 

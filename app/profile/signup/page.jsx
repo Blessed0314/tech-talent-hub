@@ -64,7 +64,7 @@ function SignUp() {
       .catch((err) => alert("An error occurred"));
   };
 
-  //? OPTIONS SELECT PROGRAMMING LANGUAGES
+  //? OPTIONS SELECT PROGRAMMING LANGUAGES -
   const progLanguages = [
     { value: "react", label: "React" },
     { value: "javascript", label: "JavaScript" },

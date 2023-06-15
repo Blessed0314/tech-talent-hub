@@ -202,8 +202,7 @@
 }
 
 
-
-/* labels */
+/* laabels */
 
 .name, .lastname, .email, .username, .password, .dateOfBirth, .cv, .country, .progLanguages, .degree, .softSkills, .languages, .seniority, .specialization, .working{
     width: 250px;

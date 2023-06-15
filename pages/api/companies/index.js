@@ -7,7 +7,7 @@ export default async function handler(req, res) {
       name,
       lastName,
       email,
-      passwoerd,
+      password,
       country,
       logo_Company
     } = req.body;
@@ -18,7 +18,7 @@ export default async function handler(req, res) {
         name,
         lastName,
         email,
-        passwoerd,
+        password,
         country,
         logo_Company
       },
